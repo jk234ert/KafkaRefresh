@@ -117,6 +117,10 @@ static CGFloat const kStretchOffsetYAxisThreshold = 1.0;
 	}
 }
 
+- (void)setAlertText:(NSString *)alertText{
+    [_alertLabel setText:alertText];
+}
+
 - (void)setAlertTextColor:(UIColor *)alertTextColor{
 	_alertLabel.textColor = alertTextColor;
 }
